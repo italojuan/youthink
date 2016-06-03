@@ -1,0 +1,155 @@
+/*----CSS DOCUMENT----*/
+
+html {
+	height: 100% !important;
+}
+body {
+	position: relative;
+	height: 100%;
+	font-size: 14px;
+	color: #363940;
+}
+body .body {
+	height: 100%;
+}
+.cover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(0, 46, 82, 0.15);
+	padding: 20px;
+}
+.page {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 50px 0;
+}
+* {
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+}
+*:focus { 
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+/* Begin Fonts */
+body {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 26px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+p {
+	font: 14px/1.5em "Roboto";
+}
+.navbar-nav > li > a {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+/* End Fonts */
+
+section {
+	position: relative;
+}
+
+.parallax {
+	position: relative;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+  	background-size: cover;
+}
+
+/*------HEADER------*/
+
+#logo { 
+	width: 155px; 
+	height: auto; 
+	background: url(../images/logo.png) no-repeat left center;  
+	padding: 22px 0;
+	text-indent: -99999px;
+}
+
+#logo a{ 
+	text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 4px;  
+}
+
+#main-navbar {
+	background: #087CA7; 
+}
+
+.navbar {
+	margin: 0;
+	border: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.navbar-right {
+	padding-top: 6px; 
+
+}
+
+.navbar-nav li a {
+	color: #ACCABC !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+	
+}
+
+.navbar-nav li a:hover, a:hover, a:active, a:visited{
+	color: #FFFFFF !important;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+	.navbar .container {
+		padding-left: 35px;
+		padding-right: 20px;
+	}
+
+	.navbar-nav li{
+		background: #2D4739;
+		border-bottom: 2px solid #09406C; 
+	}
+
+	.navbar-nav li:hover{
+		background: #1977F6; 
+	}
+
+}
