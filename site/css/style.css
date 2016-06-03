@@ -83,24 +83,39 @@ section {
 
 /*------HEADER------*/
 
-#logo { 
-	width: 155px; 
-	height: auto; 
-	background: url(../images/logo.png) no-repeat left center;  
-	padding: 22px 0;
+.navbar-brand {
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 155px;
+	height: auto;
+	padding: 24px 0;
 	text-indent: -99999px;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 4px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.navbar-default .navbar-brand {
+	background-image: url(../images/logo.png);
+}
+.navbar-shrink .navbar-brand {
+	background-image: url(../images/logo.png);
+}
+.navbar-transparent .navbar-brand {
+	background-image: url(../images/logo.png);
+}
+.navbar-inverse .navbar-brand{
+	background-image: url(../images/logo.png);
 }
 
-#logo a{ 
-	text-decoration: none;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 20px;
-    letter-spacing: 4px;  
-}
 
 #main-navbar {
-	background: #087CA7; 
+	background: #4E7AC7; 
 }
 
 .navbar {
@@ -119,7 +134,7 @@ section {
 }
 
 .navbar-nav li a {
-	color: #ACCABC !important;
+	color: #D4E3FD !important;
     text-transform: uppercase;
     text-align: center;
     font-size: 13px;
@@ -134,8 +149,6 @@ section {
 
 
 
-
-
 @media (max-width: 768px) {
 
 	.navbar .container {
@@ -144,12 +157,12 @@ section {
 	}
 
 	.navbar-nav li{
-		background: #2D4739;
-		border-bottom: 2px solid #09406C; 
+		background: #7FB2F0;
+		border-bottom: 2px solid #4E7AC7; 
 	}
 
 	.navbar-nav li:hover{
-		background: #1977F6; 
+		background: #B7D3F2; 
 	}
 
 }

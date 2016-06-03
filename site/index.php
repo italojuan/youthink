@@ -50,8 +50,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <div id="logo">
-                        <a class="page-scroll" href="index.php">youThink</a>
+                    <div id="box-logo">
+                        <a class="page-scroll navbar-brand" href="index.php">youThink</a>
                     </div>
                 </div>
                 <!--End Menu Mobile-->
