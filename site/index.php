@@ -77,6 +77,7 @@
         </div>
         
     </section>
+	<?php include 'includes/footer.php'?>
 
 	<!--Plugins JS-->
     <script type="text/javascript" src="<?php echo $urlBase ?>js/jquery-1.11.1.min.js"></script>
