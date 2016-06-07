@@ -165,7 +165,7 @@ section {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
 	.navbar .container {
 		padding-left: 35px;
