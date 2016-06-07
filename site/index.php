@@ -69,8 +69,14 @@
                 </div>
             </div>
         </nav>
-
     </header>
+
+    <section id="carousel-intro" class="parallax" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <h1>Teste</h1>
+        </div>
+        
+    </section>
 
 	<!--Plugins JS-->
     <script type="text/javascript" src="<?php echo $urlBase ?>js/jquery-1.11.1.min.js"></script>

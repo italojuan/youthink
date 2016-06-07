@@ -83,10 +83,14 @@ section {
 
 /*------HEADER------*/
 
+#main-navbar {
+	background: #1C2541; 
+}
+
 .navbar-brand {
 	background-repeat: no-repeat;
 	background-position: left center;
-	width: 155px;
+	width: 135px;
 	height: auto;
 	padding: 24px 0;
 	text-indent: -99999px;
@@ -113,14 +117,9 @@ section {
 	background-image: url(../images/logo.png);
 }
 
-
-#main-navbar {
-	background: #4E7AC7; 
-}
-
 .navbar {
 	margin: 0;
-	border: none;
+	border: none !important;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -147,7 +146,24 @@ section {
 }
 
 
+/*------SECTION INTRO------*/
 
+#carousel-intro { 
+	background: url(../images/intro-bg.jpg) no-repeat 0 0;
+	background-size: cover;
+	height: 100%; 
+}
+
+
+@media only screen and (max-width: 992px){
+
+	.parallax {
+	    background-attachment: scroll !important;
+	    background-position: 50% 50% !important;
+	    /* background-size: auto auto !important; */
+	}
+
+}
 
 @media (max-width: 768px) {
 
