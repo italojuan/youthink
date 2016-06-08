@@ -1,1 +1,1 @@
-<?php  $urlBase = 'http://localhost/youthink_local/site/'; ?>
+<?php  $urlBase = 'http://localhost/youthink/site/'; ?>
