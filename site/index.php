@@ -24,6 +24,7 @@
     <!--Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
 
     <!--Plugins CSS-->
     <link rel="stylesheet" href="<?php echo $urlBase ?>css/bootstrap.min.css">
