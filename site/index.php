@@ -46,10 +46,10 @@
                 <!--Menu Mobile-->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        <div class="sr-only">Toggle navigation</div>
+                        <div class="icon-bar"></div>
+                        <div class="icon-bar"></div>
+                        <div class="icon-bar"></div>
                     </button>
                     <div id="box-logo">
                         <a class="page-scroll navbar-brand" href="index.php">youThink</a>
@@ -106,7 +106,7 @@
                 <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                     <h2>Sobre</h2>
                     <div class="devider"></div>
-                    <p class="subtitle">little information</p>
+                    <p class="subtitle">O que nós fazemos</p>
                 </div>
             </div>
         </div>
@@ -117,43 +117,43 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
-                        <span class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
-                            <span class="rotate-box-icon"><i class="fa fa-users"></i></span>
+                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
+                            <div class="rotate-box-icon"><i class="fa fa-users"></i></div>
                             <div class="rotate-box-info">
                                 <h4>Who We Are?</h4>
                                 <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
                             </div>
-                        </span>
+                        </div>
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                        <span class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
-                            <span class="rotate-box-icon"><i class="fa fa-diamond"></i></span>
+                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
+                            <div class="rotate-box-icon"><i class="fa fa-diamond"></i></div>
                             <div class="rotate-box-info">
                                 <h4>What We Do?</h4>
                                 <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
                             </div>
-                        </span>
+                        </div>
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                        <span class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
-                            <span class="rotate-box-icon"><i class="fa fa-heart"></i></span>
+                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                            <div class="rotate-box-icon"><i class="fa fa-heart"></i></div>
                             <div class="rotate-box-info">
                                 <h4>Why We Do It?</h4>
                                 <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
                             </div>
-                        </span>
+                        </div>
                     </div>
                     
                     <div class="col-md-3 col-sm-6">
-                        <span class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
-                            <span class="rotate-box-icon"><i class="fa fa-clock-o"></i></span>
+                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
+                            <div class="rotate-box-icon"><i class="fa fa-clock-o"></i></div>
                             <div class="rotate-box-info">
                                 <h4>Since When?</h4>
                                 <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
                             </div>
-                        </span>
+                        </div>
                     </div>
                     
                 </div> <!-- /.row -->
@@ -254,9 +254,77 @@
             </div> <!-- /.container -->
         </div>
         <!-- End Our Skill -->
+
+        <div class="extra-space-l"></div>
+
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+            <div class="container">
+                <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <h2>Portfólio</h2>
+                    <div class="devider"></div>
+                    <p class="subtitle">Nós realizamos</p>
+                </div>
+            </div>
+        </div>
+        <!-- End page header-->
+
+        <div class="page-header-wrapper">
+            <div class="container">
+                <div class="subtitle-portfolio">Todos</div>
+                <div class="subtitle-portfolio">WebSite</div>
+                <div class="subtitle-portfolio">Web Design</div>
+                <div class="subtitle-portfolio">Desenvolvimento de Apps</div>
+                <div class="subtitle-portfolio">Design Gráfico</div>
+                <div class="subtitle-portfolio">Design Responsivo</div>
+            </div>
+        </div>
+
+        <div class="extra-space-l"></div>
+
+        <!-- Begin rotate box-1 -->
+        <div class="rotate-box-1-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
+                            <div class="col-md-4">
+                                <img src="<?php echo $urlBase?>/images/template-01.png" title="" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
+                            <div class="col-md-4">
+                                <img src="<?php echo $urlBase?>/images/template-02.png" title="" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                            <div class="col-md-4">
+                                <img src="<?php echo $urlBase?>/images/template-03.png" title="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6">
+                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
+                            <div class="col-md-4">
+                                <img src="<?php echo $urlBase?>/images/template-03.png" title="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div>
+        <!-- End rotate box-1 -->
     </section>
 
-	<?php include 'includes/footer.php'?>
+	<?php include 'includes/footer.php' ?>
 
 	<!--Plugins JS-->
     <script type="text/javascript" src="<?php echo $urlBase ?>js/jquery-1.11.1.min.js"></script>
