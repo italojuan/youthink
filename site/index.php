@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="<?php echo $urlBase ?>/css/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $urlBase ?>css/owl.carousel.css">
     <link rel="stylesheet" href="<?php echo $urlBase ?>css/owl.theme.css">
+    <link rel="stylesheet" href="<?php echo $urlBase ?>/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php echo $urlBase ?>/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php echo $urlBase ?>/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 
     <!--CSS Styles-->
     <link rel="stylesheet" href="<?php echo $urlBase ?>css/style.css">
@@ -62,7 +65,7 @@
                         <li><a class="page-scroll" href="#carousel-intro">Home</a></li>
                         <li><a class="page-scroll" href="#sobre">Sobre</a></li>
                         <li><a class="page-scroll" href="#">Serviços</a></li>
-                        <li><a class="page-scroll" href="#">Portfólio</a></li>
+                        <li><a class="page-scroll" href="#portfolio">Portfólio</a></li>
                         <li><a class="page-scroll" href="#">Equipe</a></li>                            
                         <li><a class="page-scroll" href="#">Preços</a></li>
                         <li><a class="page-scroll" href="#contact-section">Contato</a></li>
@@ -258,7 +261,7 @@
         <div class="extra-space-l"></div>
 
         <!-- Begin page header-->
-        <div class="page-header-wrapper">
+        <div id="portfolio" class="page-header-wrapper">
             <div class="container">
                 <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                     <h2>Portfólio</h2>
@@ -286,37 +289,30 @@
         <div class="rotate-box-1-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
-                            <div class="col-md-4">
-                                <img src="<?php echo $urlBase?>/images/template-01.png" title="" alt="">
-                            </div>
-                        </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="fancybox" rel="gallery1" href="<?php echo $urlBase?>/images/template-01.png" title="Imagem 1">
+                            <img src="<?php echo $urlBase?>images/template-01.png" title="" alt="">
+                        </a>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
-                            <div class="col-md-4">
-                                <img src="<?php echo $urlBase?>/images/template-02.png" title="" alt="">
-                            </div>
-                        </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="fancybox" rel="gallery1" href="<?php echo $urlBase?>/images/template-01.png" title="Imagem 1">
+                            <img src="<?php echo $urlBase?>images/template-02.png" title="" alt="">
+                        </a>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
-                            <div class="col-md-4">
-                                <img src="<?php echo $urlBase?>/images/template-03.png" title="" alt="">
-                            </div>
-                        </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="fancybox" rel="gallery1" href="<?php echo $urlBase?>/images/template-01.png" title="Imagem 1">
+                            <img src="<?php echo $urlBase?>images/template-03.png" title="" alt="">
+                        </a>
                     </div>
-                    
-                    <div class="col-md-3 col-sm-6">
-                        <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
-                            <div class="col-md-4">
-                                <img src="<?php echo $urlBase?>/images/template-03.png" title="" alt="">
-                            </div>
-                        </div>
-                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="fancybox" rel="gallery1" href="<?php echo $urlBase?>/images/template-01.png" title="Imagem 1">
+                            <img src="<?php echo $urlBase?>images/template-04.png" title="" alt="">
+                        </a>
+                    </div>                    
                     
                 </div> <!-- /.row -->
             </div> <!-- /.container -->
@@ -334,5 +330,10 @@
     <script type="text/javascript" src="<?php echo $urlBase ?>js/wow.min.js"></script>
     <script type="text/javascript" src="<?php echo $urlBase ?>js/theme.js"></script>
     <script type="text/javascript" src="<?php echo $urlBase ?>js/jquery.easing.min.js"></script>
-	
+    <script type="text/javascript" src="<?php echo $urlBase ?>fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script type="text/javascript" src="<?php echo $urlBase ?>fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="<?php echo $urlBase ?>fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="<?php echo $urlBase ?>fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="<?php echo $urlBase ?>fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<script type="text/javascript" src="<?php echo $urlBase ?>js/functions.js"></script>
 </body>
